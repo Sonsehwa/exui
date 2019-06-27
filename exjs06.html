@@ -31,15 +31,13 @@
         prodList.push( { no: 3, name: "사또밥", price: 800 } );
 
         //1. 현재 prodList 에 저장되어 있는 상품들의 정보를 상품목록 테이블의 tbody에 출력
-        
         var tbody = document.querySelector("#prods");
+
         for(var i=0; i<prodList.length; i++){
             var p = prodList[i]
             tbody.innerHTML +='<tr>'+'<td>'+p.no+'</td>'+'<td>'+p.name+'</td>'+'<td>'+p.price+'</td>'+'</tr>';
         }
-
-
-
+        //for문이랑 똑같은 의미임
         // var p = prodList[0]
         // var p = prodList[1]
         // var p = prodList[2]
@@ -51,6 +49,7 @@
         //2. 저장 버튼을 클릭하면, 입력한 상품 정보를 prodList 에 추가하고,
         //  prodList 에 저장되어 있는 상품들의 정보를 상품목록 테이블의 tbody에 다시 출력
         //  input 엘리먼트에 입력되어 있는 값들은 초기화
+        onclick
 
     </script>
 </body>
